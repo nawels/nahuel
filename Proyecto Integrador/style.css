@@ -1,0 +1,228 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background: url(fondo.JPG);
+}
+
+.navegacion{
+  width: 1000px;
+  margin: 30px auto;
+
+}
+
+.bloquedos h1{
+  text-align: center;
+}
+
+.contenidotexto p {
+text-align: center;
+
+}
+
+.logo img{
+  width: 30%;
+  height: 30%;
+  margin: auto;
+  text-align: center;
+
+}
+
+.productouno img{
+  width: 30%;
+  height: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+
+.productouno{
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.contenidotexto{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.logo{
+  text-align: center;
+  margin: auto;
+}
+
+.navegacion ul{
+  list-style: none;
+  text-align: center;
+}
+
+.menu > li {
+  display: inline-block;
+}
+
+.menu > li > a{
+  display: inline-block;
+  padding: 15px 20px;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+
+}
+
+.menu li a:hover{
+  color: chocolate;
+  transition: all 3s;
+}
+body{
+    margin: 0;
+    background-color: silver;
+}
+
+.menu ul{
+  list-style: none;
+}
+.button-add {
+   font-size: 16px;
+   text-align: center;
+   border-radius: 8px;
+   padding: 10px 15px;
+   background-color: white;
+   color: black;
+   border: 2px solid green;
+   transition-duration: 0.4s;
+   position: absolute;
+   right: 15px;
+   bottom: 10px;
+   
+
+  }
+  
+  .button-add:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    
+  }
+
+.contenido-pag{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-container{
+  margin: 15px;
+  padding: 2px 16px;
+  position: relative;
+}
+
+.product-container h2{
+margin-bottom: 10px;
+margin-left: 15px;
+
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
+  }
+
+.product-container img{
+width: 300px;
+
+}
+
+.footerimagen{
+  background-color:black
+}
+
+.contenedorfooter  p{
+  
+  color: aliceblue;
+  display: inline-block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+
+   .contenedorfooter h4{
+     color: chartreuse;
+     display: inline-block;
+
+     font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+
+   .contenedor{
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+.formulario{
+    background: #fff;
+    
+    
+}
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
